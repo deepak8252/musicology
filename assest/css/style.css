@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Gelasio", serif;
+}
+:root{
+    --primarycolor:rgb(46, 46, 47);
+    --secondary-color: rgb(229, 67, 7);
+}
+/* header section css start */
+.header{
+    padding: 0px 30px !important;
+    background-color: var(--primarycolor);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.header .logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+}
+.header .navbar ul li a{
+    color: white !important;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.hero{
+    background-image:linear-gradient(40deg, rgba(0,0,0,.6)100%, transparent), url(../img/hero1.avif);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    position: relative;
+}
+.hero-content{
+    position: absolute;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   top: 20%;
+    align-items: center;
+    margin: auto;
+}
+.heading h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 400 !important;
+}
+.content p{
+text-align: justify;
+color: white;
+font-size: 16px;
+text-transform: capitalize;
+}
+.hero .button button{
+    background-color:var(--secondary-color);
+    color: white;
+    padding: 10px 1.8rem;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+/* dancehout section css start */
+.dancetour{
+    background-color: var(--secondary-color);
+    width: 100%;
+    /* height: 100vh; */
+}
+.img-card{
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+.img-card img{
+    width: 100%;
+   
+}
+.dancetour .img-content{
+    background-color: rgba(0,0,0,.6);
+    /* transform: translateY(-165px); */
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    
+}
+.pricing{
+    background-color: var(--primarycolor);
+}
+.icon-box{
+    height: 200px;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+

@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 799px) {
+     .hero-content{
+        width: 80% !important;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        top: 10%;
+        align-items: center;
+        margin: auto;
+        padding: 30px;
+      
+     }
+     .img-card{
+        margin-bottom: 20px;
+     }
+     
+}
+
